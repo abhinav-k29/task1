@@ -26,6 +26,25 @@ body{
     max-width: none;
     
 }
-.image-area p{
-
+.head{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+    margin-top: 45px;
+    font-weight: lighter;
+    text-align: center;
+}
+.sent{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    margin-top: 65px;
+    text-align: center;
+}
+.links{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    text-align: center;
 }
