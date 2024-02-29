@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Search Page</title>
+    <link rel="stylesheet" href="body.css">
+</head>
+<body>
+    <header class="header">
+        <img src="assets/background.jpg" alt="Background image" class="background-img">
+        <div class="logo">
+            <h1>Travel Booking</h1>
+        </div>
+    </header>
+    <main class="main">
+        <div class="search-container">
+            <h2>Search for your journey</h2>
+            <div class="search-fields">
+                <label for="from">From:</label>
+                <input type="text" id="from" name="from" placeholder="Enter origin">
+                <label for="to">To:</label>
+                <input type="text" id="to" name="to" placeholder="Enter destination">
+            </div>
+            <div class="date-and-passengers">
+                <div class="date-picker">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" value="2024-02-29">
+                    <img src="assets/calendar.jpg" alt="Calendar icon" class="calendar-icon">
+                </div>
+                <div class="passengers">
+                    <label for="passengers">Passengers:</label>
+                    <div class="passenger-count">
+                        <span>1</span> Person (aged 27-64), no discount
+                    </div>
+                    <img src="assets/right-arrow.png" alt="Right arrow" class="right-arrow">
+                </div>
+            </div>
+            <div class="class-selection">
+                <label for="class">Class:</label>
+                <input type="radio" id="first-class" name="class" value="first">
+                <label for="first-class">1st Class</label>
+                <input type="radio" id="second-class" name="class" value="second">
+                <label for="second-class">2nd Class</label>
+            </div>
+            <button type="submit">Search</button>
+        </div>
+        <div class="car-images">
+            <p>Choose your car:</p>
+            <span>&#128663;</span>
+            <span>&#128664;</span>
+        </div>
+    </main>
+</body>
+</html>
